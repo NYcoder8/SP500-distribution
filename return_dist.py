@@ -5,7 +5,9 @@ import matplotlib.pyplot as plt
 
 
 def plot_by_year(df):
-
+    """
+    Plots the returns distribution by year from 1999 to 2019 in subplots. 
+    """
     plt.style.use('ggplot')
 
     # convert to Series for charting
